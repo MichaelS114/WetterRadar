@@ -260,7 +260,7 @@ function Wetter({ coordinates, timezone }) {
                 <>
                   <div className="sm:ml-3 ml-2">
                     <button onClick={handleButton} className="mx-2 m-3">
-                      {(play && <FaPause color={primaryColor} className="" />) || (!play && <FaPlay color={primaryColor} className="" />)}
+                      {(play && <FaPause color='#000' className="" />) || (!play && <FaPlay color='#000' className="" />)}
                     </button>
                   </div>
                   <div className="sm:w-[300px] md:w-[400px] sm:pl-4 pl-2 pr-5 text-xs">
