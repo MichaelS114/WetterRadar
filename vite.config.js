@@ -37,6 +37,7 @@ export default defineConfig({
                 purpose: 'maskable'
             }
         ],
+      base: "/WetterRadar/"
       }, 
     })],
 })
