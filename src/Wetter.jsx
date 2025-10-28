@@ -5,7 +5,7 @@ import './CSS/wetter.css';
 import { MapContainer, TileLayer, Popup, useMap, Circle, useMapEvents } from 'react-leaflet';
 import RadarFrame from "./RadarFrame";
 import { FaBackward, FaForward, FaPlay, FaPause, FaLocationPin } from "react-icons/fa6";
-import { BsSearch } from "react-icons/bs";
+import { BsCamera, BsSearch } from "react-icons/bs";
 import { Slider, Switch } from "@mui/material";
 import Spinner from './Spinner';
 import { BsXLg, BsSun, BsWind } from "react-icons/bs";
@@ -13,7 +13,8 @@ import { Transition } from '@headlessui/react'
 import useScreenSize from './useScreenSize';
 import { FaAngleLeft, FaAngleRight, FaGear } from "react-icons/fa6";
 import { Marker } from '@adamscybot/react-leaflet-component-marker';
-
+import WebCams
+ from './WebCams';
 function Wetter({ coordinates, timezone }) {
   const [lightningData, setLightningData] = useState([]);
   // 
@@ -38,7 +39,7 @@ function Wetter({ coordinates, timezone }) {
   const screenSize = useScreenSize();
   const primaryColor = "#0369a1";
   const [markers, setMarkers] = useState([]);
-
+  const [showWebcam, setShowWebcam] = useState(false);
 
 
   const handleButton = () => {
@@ -185,8 +186,10 @@ function Wetter({ coordinates, timezone }) {
   }
 
   return (
+    !showWebcam ?
     <>
       <div className='flex flex-1 h-full w-full relative text-black'>
+        <button className='h-10 w-10 bg-white rounded-full absolute flex items-center justify-center top-10 left-10 z-[1000] shadow-md border border-black/10 cursor-pointer' onClick={() => setShowWebcam(true)}><BsCamera/></button>
         {/* Searchbar */}
         {/* https://nominatim.openstreetmap.org/search?city=Linz&format=json&featuretype=city&limit=5&countrycodes=at */}
         <div className='flex top-10 left-10 w-80 h-fit z-50 flex-col absolute sm:hidden md:flex'>
@@ -328,7 +331,9 @@ function Wetter({ coordinates, timezone }) {
         )}
       </div>
     </>
-  );
+    :
+
+<WebCams showWebcam={setShowWebcam} />);
 }
 
 export default Wetter;

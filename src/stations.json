@@ -1,0 +1,135 @@
+[
+   {
+      "name": "Sternstein", 
+      "url": "https://www.sternstein.at/webcam.php?camNo=2",
+      "lon": "48.559706",
+      "lat": "14.268874",
+      "key": "MV UU"
+   },
+   {
+      "name": "Eidenberger Alm", 
+      "url": "https://webcam.wetter-linz.at/eidenbergeralm.jpg",
+      "lon": "48.39813917857577",
+      "lat": "14.2394095821697",
+      "key": "MV UU"
+   },
+   {
+      "name": "Ottensheim - Dürnberg", 
+      "url": "https://www.ottensheim.at/webcam/img/duernberg/latest?",
+      "lon": "48.337796",
+      "lat": "14.205510",
+      "key": "MV UU"
+   },
+   {
+      "name": "Ottensheim - Regatta", 
+      "url": "https://www.ottensheim.at/webcam/img/regatta/latest?",
+      "lon": "48.327348",
+      "lat": "14.161752",
+      "key": "MV UU"
+   },
+   {
+      "name": "GIS - Linz", 
+      "url": "https://data.lichtenberg.ooe.gv.at/webcamgis/pos7.jpg",
+      "lon": "48.384405",
+      "lat": "14.254933",
+      "key": "MV UU"
+   },
+   {
+      "name": "GIS - Gasthaus", 
+      "url": "https://data.lichtenberg.ooe.gv.at/webcamgis/pos8.jpg",
+      "lon": "48.384405",
+      "lat": "14.254933",
+      "key": "MV UU"
+   },
+   {
+      "name": "GIS - Ottensheim", 
+      "url": "https://data.lichtenberg.ooe.gv.at/webcamgis/pos12.jpg",
+      "lon": "48.384405",
+      "lat": "14.254933",
+      "key": "MV UU"
+   },
+   {
+      "name": "Breitenstein - Hellmonsödt", 
+      "url": "https://www.wetter-kirchschlag.at/online/hellmonsoedt.jpg",
+      "lon": "48.415176",
+      "lat": "14.274169",
+      "key": "MV UU"
+   },
+   {
+      "name": "Hochficht - Bergstation", 
+      "url": "https://images.bergfex.at/webcams/?id=6975&format=11&2",
+      "lon": "48.749246",
+      "lat": "13.905266",
+      "key": "MV RO"
+   },
+   {
+      "name": "Hansberg", 
+      "url": "https://webcam.ssu-stjohann.at/webshot_Starthaus.jpg",
+      "lon": "48.474837",
+      "lat": "14.146658",
+      "key": "MV RO"
+   },
+   {
+      "name": "Freistadt - Schilift", 
+      "url": "https://schilift-freistadt.at/webcam/cam1.jpg",
+      "lon": "48.512906",
+      "lat": "14.481780",
+      "key": "MV FR"
+   },
+   {
+      "name": "Liebenau - Schilift", 
+      "url": "https://panodata.panomax.com/cams/1569/lifthang.jpg",
+      "lon": "48.534929",
+      "lat": "14.802227",
+      "key": "MV FR"
+   },
+   {
+      "name": "Großglockner Freiwandeck", 
+      "url": "https://www.foto-webcam.eu/webcam/freiwandeck/current/1920.jpg",
+      "lon": "47.082578606939386",
+      "lat": "12.751480088367892",
+      "key": "AT INT"
+   },
+   {
+      "name": "Großglockner Wallackhaus", 
+      "url": "https://www.foto-webcam.eu/webcam/wallackhaus/current/1920.jpg",
+      "lon": "47.07289631752711",
+      "lat": "12.83962264217961",
+      "key": "AT INT"
+   },
+   {
+      "name": "Ramsau - Hotel Lindenhof", 
+      "url": "https://www.foto-webcam.eu/webcam/hotel-lindenhof/current/1920.jpg",
+      "lon": "47.42716679166323",
+      "lat": "13.644814551093138",
+      "key": "AT INT"
+   },
+      {
+      "name": "Mayrhofen", 
+      "url": "https://www.foto-webcam.eu/webcam/mayrhofen/current/1920.jpg",
+      "lon": "47.16930558733524",
+      "lat": "11.863341954843607",
+      "key": "AT INT"
+   },
+   {
+      "name": "Innsbruck", 
+      "url": "https://www.foto-webcam.eu/webcam/innsbruck/current/1920.jpg",
+      "lon": "47.311930",
+      "lat": "11.383930",
+      "key": "AT INT"
+   },
+   {
+      "name": "Dachstein", 
+      "url": "https://www.foto-webcam.eu/webcam/simonyhuette/current/1920.jpg",
+      "lon": "47.50075192255687",
+      "lat": "13.623802937759416",
+      "key": "AT INT"
+   },
+   {
+      "name": "St. Johann in Tirol", 
+      "url": "https://www.foto-webcam.eu/webcam/wilder-kaiser/current/1920.jpg",
+      "lon": "47.492528154866115",
+      "lat": "12.426760857173687",
+      "key": "AT INT"
+   }
+]
